@@ -1,0 +1,20 @@
+//For create DB
+create database demodb;
+
+//To point to particular DB
+use demodb;
+
+//To create a Table 
+create table EmpInfo(Name varchar(20),Id int,Dept varchar(15),Gender varchar(8));
+
+//To display Strcture of table
+describe EmpInfo;
+
+//To insert record into Table
+insert into EmpInfo values('Raghus',101,'STD','M');
+
+//To fetch records from DB
+select * from EmpInfo;
+
+//To fetech particulat record values
+select * from EmpInfo where Name='Raghus'

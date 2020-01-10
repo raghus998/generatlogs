@@ -1,0 +1,10 @@
+mvn -version
+mvn - clean (will delete the unwanted files)
+mvn validate ( validate the POM File)
+mvn compile (compile thr src code with the mvn compiler plugin)
+mvn test( run the testng.xml file)
+mvn package
+mvn install (will install in local repos)
+mvn deploy(will deploy in remote sys)
+mvn verify 
+mvn site

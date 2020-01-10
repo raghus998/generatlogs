@@ -1,0 +1,7 @@
+Use log. Error() to log when elements are not displayed in the page or if any validations fail
+
+Use Log. Debug() When each Selenium action is performed like click, SendKeys, getText()
+
+Use log.info()  When operation is successfully completed ex: After loading page, or after any successful validations
+
+It’s just counterpart to log. Error()
