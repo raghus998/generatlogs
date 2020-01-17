@@ -50,7 +50,7 @@ public class BaseTest {
 		extent.setSystemInfo("QA","RS");
 		extent.setSystemInfo("BrowserName","Chrome");
 	}
-	
+		
 	@AfterTest
 	public void postCondition() {
 		extent.flush();

@@ -2,8 +2,8 @@ Why is Log4j?
 To track the flow of application and to maintain a record of the overallprocess we go gor log4j FW.
 
 components of log4j
-1.Loggers = To register the class to the Logger
-2.Appenders = To append the logging information to the respective dest.
+1.Loggers = To register the class to the Logger or will define what are the logger's to be logged.
+2.Appenders = To append the logging information to the respective dest  or will define where to log the logs.
 3.Layouts = will defines the format of logging information.
 
 Diff loggers
@@ -12,3 +12,11 @@ Diff loggers
 3.Warn
 4.Error
 5.Fatal
+
+1) where to log = Appenders tag
+2) What to log = Logger,level tag {diff logs}
+3) how to log = pattern
+
+In logger tag if we specigy paricular pacakge has to be run with only certain logger then 
+when we run only that particular package we will get duplicates logd bz of riit tag. 
+To avoid duplicates we have to give addotovity ='false"
