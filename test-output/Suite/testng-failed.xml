@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="reports.Demo">
+      <class name="demo.Demo">
         <methods>
-          <include name="testB"/>
-          <include name="testC"/>
+          <include name="verifyElement"/>
           <include name="postCondition"/>
-          <include name="startService"/>
-          <include name="tearDown"/>
-          <include name="stopService"/>
           <include name="preCondition"/>
         </methods>
-      </class> <!-- reports.Demo -->
+      </class> <!-- demo.Demo -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

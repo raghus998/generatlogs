@@ -1,0 +1,14 @@
+Why is Log4j?
+To track the flow of application and to maintain a record of the overallprocess we go gor log4j FW.
+
+components of log4j
+1.Loggers = To register the class to the Logger
+2.Appenders = To append the logging information to the respective dest.
+3.Layouts = will defines the format of logging information.
+
+Diff loggers
+1.Debug
+2.Info
+3.Warn
+4.Error
+5.Fatal

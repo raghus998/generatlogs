@@ -1,0 +1,29 @@
+Jenkins configuration
+1.Java path
+2.Maven path(https://maven.apache.org/download.cgi)
+3.git Path(https://git-scm.com/download/win)(Default)(git.exe)	
+
+
+
+jenkins Plugins
+1.Green Balls
+2.Maven Integration Plugin(For MAven Project)
+3.git plugin(for Git intgregation)
+4.TestNG Results Plugin
+5.Test Results Analyzer Plugin
+6.HTML plblisher(to get the HTMl Result File )
+6.Poll SCM plugin
+7.Poll Mailbox Trigger Plugin( to Trigger Job with Email)
+8.Email Extension Plugin
+
+
+Mail Configuration
+Configure Sys > Extended E-mail Notification
+
+Error
+Google  Accocnt>Sign in and Security >Allow less secure apps ON > Should be on
+
+
+System.setProperty("hudson.model.DirectoryBrowserSupport.CSP","")
+java -Dhudson.model.DirectoryBrowserSupport.CSP=""
+-jar jenkins.war

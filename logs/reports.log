@@ -1,10 +1,4 @@
-2020-01-10 17:57:06,573 FATAL l.Demo [main] fetal log
-2020-01-10 17:57:06,582 ERROR l.Demo [main] Error log
-2020-01-10 17:57:06,585 INFO l.Demo1 [main] info log
-2020-01-10 17:57:06,585 FATAL l.Demo1 [main] fetal log
-2020-01-10 17:57:06,585 ERROR l.Demo1 [main] Error log
-2020-01-10 17:57:06,585 DEBUG l.Demo1 [main] debug log
-2020-01-10 17:57:06,585 TRACE l.Demo1 [main] trace log
-2020-01-10 17:57:06,585 WARN l.Demo1 [main] warn log
-2020-01-10 17:57:06,585 FATAL l.Demo1 [main] fetal log
-2020-01-10 17:57:06,585 ERROR l.Demo1 [main] Error log
+2020-01-13 18:48:08,384 INFO d.Demo [main] Navigated to Actitime
+2020-01-13 18:48:08,390 DEBUG d.Demo [main] Finding the element
+2020-01-13 18:48:08,414 ERROR d.Demo [main] Failed
+2020-01-13 18:48:08,417 DEBUG d.Demo [main] Closing the browser
