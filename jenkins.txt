@@ -27,3 +27,6 @@ Google  Accocnt>Sign in and Security >Allow less secure apps ON > Should be on
 System.setProperty("hudson.model.DirectoryBrowserSupport.CSP","")
 java -Dhudson.model.DirectoryBrowserSupport.CSP=""
 -jar jenkins.war
+
+
+java -jar jenkins.war --httpPort=9090
